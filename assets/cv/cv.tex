@@ -65,34 +65,40 @@
 \makecvtitle
 \vspace*{-10mm}
 \section{Education}
-\cventry{2020--Present}{PhD Student, Electrical Engineering and Computer Science}{Massachusetts Institute of Technology}{}{}{Doctoral Supervisor: Prof. Mengjia Yan}
-\cventry{2014--2020}{Bachelor of Applied Science, Computer Engineering}{University of British Columbia}{}{}{Undergraduate Supervisors: Prof. Mieszko Lis \& Prof. Prashant Nair}  % arguments 3 to 6 can be left empty
+\cventry{2022 -- Present}{PhD Student, Electrical Engineering and Computer Science}{Massachusetts Institute of Technology}{}{}{Doctoral Supervisor: Prof. Mengjia Yan}
+\cventry{2020 -- 2022}{Master of Science, Electrical Engineering and Computer Science}{Massachusetts Institute of Technology}{}{}{Thesis: Mitigating Memory Controller Side-Channels\\Masters Supervisor: Prof. Mengjia Yan}
+\cventry{2014 -- 2020}{Bachelor of Applied Science, Computer Engineering}{University of British Columbia}{}{}{Undergraduate Supervisors: Prof. Mieszko Lis \& Prof. Prashant Nair}  % arguments 3 to 6 can be left empty
 
 \section{Research Interests}
-\cvitem{Side Channels Classification}{Exploration of side-channel taxonomies and comparison schemes}
-\cvitem{Hardware Defenses}{Improving traffic shaping schemes, Rowhammer mitigations}
+\cvitem{Processor Reliability}{Improving chip-design processes in light of emergent silent data corruption (SDC) failure modes.}
+\cvitem{Side-Channel Classification and Defense}{Exploration of side-channel taxonomies, comparison schemes, and concrete leakage evaluations.}
+\cvitem{Memory Defenses}{Making DRAM more resilient to timing side-channels and Rowhammer effects.}
 
 \nocite{*}
 \bibliographystyle{plain}
 \bibliography{publications} 
+\nobreak
+
+\section{Academic Service}
+\cventry{}{Reviewer}{IEEE Transactions on Computers – Special Issue on Hardware Security}{2022}{}{}{}
 
 \section{Work Experience}
 \subsection{Research \& Academic}
-\cventry{2022}{Lab Assignment Developer}{Massachusetts Institute of Technology}{Cambridge, MA}{}{%
+\cventry{2022 -- 2023}{TA/Lab Assignment Developer}{Massachusetts Institute of Technology}{Cambridge, MA}{}{%
   \begin{itemize}\setlength\itemindent{-8pt}
   \setlength\labelsep{-3pt}
-      \myitem Assisted in the development and testing of lab assignments for MIT's Secure Hardware Design course (6.888).
+      \myitem Assisted in the development and testing of lab assignments for MIT's Secure Hardware Design course.
       \myitem Developed an assignment which guides students through performing and characterizing Rowhammer attacks on commodity hardware.
   \end{itemize}}
 
-\cventry{May 2019 -- Aug 2020}{Undergraduate Research Student}{University of British Columbia}{Vancouver, Canada}{}{%
+\cventry{2019 -- 2020}{Undergraduate Research Student}{University of British Columbia}{Vancouver, Canada}{}{%
   \begin{itemize}\setlength\itemindent{-8pt}
   \setlength\labelsep{-3pt}
       \myitem Investigated methods to detect and mitigate speculative execution attacks which utilize cache and DRAM side-channels (ex. Spectre/Meltdown).
       \myitem Replicated attacks, benchmarked prior work, and explored new mitigations using SPEC CPU 2017 and gem5.
   \end{itemize}}
   
-\cventry{Jan 2017 -- Aug 2017}{Microsystems Engineering Student}{Bosch Corporate Research}{Stuttgart, Germany}{}{
+\cventry{2017}{Microsystems Engineering Student}{Bosch Corporate Research}{Stuttgart, Germany}{}{
   \begin{itemize}\setlength\itemindent{-8.5pt}
   \setlength\labelsep{-3pt}
       \myitem Researched the use of MEMS gyroscopes as Physical Unclonable Functions (PUFs), facilitating reliable secret key generation in IoT devices.
@@ -107,7 +113,7 @@
   \end{itemize}}
 
 \subsection{Industry}
-\cventry{May 2018 -- Apr 2019}{Verification Engineer Intern}{Intel Corporation}{Vancouver, Canada}{}
+\cventry{2018 -- 2019}{Verification Engineer Intern}{Intel Corporation}{Vancouver, Canada}{}
 {%
   \begin{itemize}\setlength\itemindent{-8.5pt}
   \setlength\labelsep{-3pt}
@@ -115,20 +121,34 @@
       \myitem Designed end-to-end traffic tests to confirm compliance to internal architecture requirements and flash interface specifications, ensuring that comprehensive code coverage was achieved.
   \end{itemize}}
 
-\cventry{Sep 2017 -- Dec 2017}{Product Design Engineer Intern}{Microsemi (Microchip)}{Vancouver, Canada}{}{%
+\cventry{2017}{Product Design Engineer Intern}{Microsemi (Microchip)}{Vancouver, Canada}{}{%
   \begin{itemize}\setlength\itemindent{-8.5pt}
   \setlength\labelsep{-3pt}
       \myitem Designed and verified top-level RTL glue logic (SystemVerilog \& VHDL) for SAS/SATA RAID controllers.
       \myitem Implemented appropriate pipelining and clock-domain-crossing synchronization strategies, ensuring that timing closure and MTBF thresholds were met.
   \end{itemize}}
 
+\section{Awards}
+\subsection{Graduate}
+\cventry{}{Topic: Leveraging Accessible Signals for the Efficient Discovery of Corrupt Execution Errors}{Google Research Scholar Grant}{2023}{}{}
+\cventry{}{Awarded on the recommendation of the Department Head of EECS}{Advanced Televison and Signal Processing Fellowship}{2020}{}{}{}
+\subsection{Undergraduate}
+\cventry{}{Awarded to the head of the graduating undergraduate class in Applied Science}{Dean’s Prize for Academic Excellence in Engineering}{2020}{}{}{}
+\cventry{}{Presented to the top ECE Capstone (final year) project teams in 2020}{ECE Capstone Faculty Award}{2020}{}{}{}
+\cventry{}{Awarded on the recommendation of the Faculty of Applied Science}{NSERC Undergraduate Student Research Award}{2019}{}{}{}
+\cventry{}{Awarded to students in the top 5\% of their program}{Trek Excellence Scholarship for Continuing Students}{2015, 2016, 2017, 2019}{}{}{}
+\cventry{}{Awarded on the recommendation of the Department Head of Computer Engineering}{PMC-Sierra Founders Award in Electrical and Computer Engineering}{2019}{}{}{}
+\cventry{}{Awarded on the recommendation of the Faculty of Applied Science}{Elizabeth and Leslie Gould Scholarship in Engineering}{2019}{}{}{}
+\cventry{}{Awarded on the recommendation of the Faculty of Applied Science}{J Fred Muir Memorial Scholarship in Engineering}{2017}{}{}{}
+\cventry{}{Awarded on the recommendation of the Faculty of Applied Science}{J K Zee Memorial Scholarship}{2016}{}{}{}
 
 
 \section{Volunteerism}
-\cventry{2021}{Graduate Student Volunteer}{MIT Graduate Application Assistance Program}{Cambridge, MA}{}{%
+\cventry{2021-Present}{Treasurer/Graduate Student Volunteer}{MIT Graduate Application Assistance Program}{Cambridge, MA}{}{%
   \begin{itemize}\setlength\itemindent{-8pt}
   \setlength\labelsep{-3pt}
        \myitem Worked with underrepresented  MIT PhD applicants, providing advice and detailed feedback on personal and research statements. 
+       \myitem Coordinated finances for the program, raising funds to provide fee waivers for underprivileged applicants.
   \end{itemize}}
 \cventry{2020}{Printing / Distribution Volunteer}{BC COVID-19 3D Printing Group (BCC3D)}{Vancouver, Canada}{}{%
   \begin{itemize}\setlength\itemindent{-8pt}
@@ -143,16 +163,7 @@
   \end{itemize}}
 
   
-\section{Awards}
-\cventry{}{Awarded on the recommendation of the Department Head of EECS}{Advanced Televison and Signal Processing Fellowship}{2020}{}{}{}
-\cventry{}{Awarded to the head of the graduating undergraduate class in Applied Science}{Dean’s Prize for Academic Excellence in Engineering}{2020}{}{}{}
-\cventry{}{Presented to the top ECE Capstone (final year) project teams in 2020}{ECE Capstone Faculty Award}{2020}{}{}{}
-\cventry{}{Awarded on the recommendation of the Faculty of Applied Science}{NSERC Undergraduate Student Research Award}{2019}{}{}{}
-\cventry{}{Awarded to students in the top 5\% of their program}{Trek Excellence Scholarship for Continuing Students}{2015, 2016, 2017, 2019}{}{}{}
-\cventry{}{Awarded on the recommendation of the Department Head of Computer Engineering}{PMC-Sierra Founders Award in Electrical and Computer Engineering}{2019}{}{}{}
-\cventry{}{Awarded on the recommendation of the Faculty of Applied Science}{Elizabeth and Leslie Gould Scholarship in Engineering}{2019}{}{}{}
-\cventry{}{Awarded on the recommendation of the Faculty of Applied Science}{J Fred Muir Memorial Scholarship in Engineering}{2017}{}{}{}
-\cventry{}{Awarded on the recommendation of the Faculty of Applied Science}{J K Zee Memorial Scholarship}{2016}{}{}{}
+
 
 %\section{References}
 %\cvitemwithcomment{\textbf{Asst. Professor Mieszko Lis}}{Research Supervisor}{University of British Columbia}
